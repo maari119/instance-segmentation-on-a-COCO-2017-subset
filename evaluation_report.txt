@@ -1,0 +1,47 @@
+
+IMAGE SEGMENTATION MODEL - EVALUATION REPORT
+================================================================================
+
+CONFIGURATION:
+- Model: Mask R-CNN with ResNet-50-FPN backbone
+- Dataset: COCO 2017 subset (4 classes)
+- Classes: person, cat, sports ball, book
+- Training images: 300
+- Validation images: 300
+- Image size: 640x640
+- Batch size: 4
+- Epochs trained: 16
+- IoU threshold: 0.5
+
+OVERALL PERFORMANCE:
+- Precision: 0.5115
+- Recall: 0.6422
+- F1-Score: 0.5694
+
+PER-CLASS PERFORMANCE:
+
+person:
+  Precision: 0.5335
+  Recall: 0.7144
+  F1-Score: 0.6108
+  Avg IoU: 0.7598
+
+cat:
+  Precision: 0.5000
+  Recall: 0.6818
+  F1-Score: 0.5769
+  Avg IoU: 0.8099
+
+sports ball:
+  Precision: 0.5600
+  Recall: 0.3889
+  F1-Score: 0.4590
+  Avg IoU: 0.7966
+
+book:
+  Precision: 0.1809
+  Recall: 0.1318
+  F1-Score: 0.1525
+  Avg IoU: 0.6932
+
+================================================================================
