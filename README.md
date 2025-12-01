@@ -10,9 +10,6 @@ Challenge: 63:1 class imbalance ratio
 pip install torch torchvision albumentations pycocotools opencv-python
 pip install matplotlib seaborn pandas numpy tqdm
 ```
-
-### 2. Dataset Structure
-```
 RMDS_Segmentation_Assignment/
 ├── train-300/
 │   ├── data/          # Training images
@@ -21,3 +18,6 @@ RMDS_Segmentation_Assignment/
 │   ├── data/          # Validation images
 │   └── labels.json
 └── test-30/           # Test images (no labels)
+### 2. Dataset Structure
+```
+
